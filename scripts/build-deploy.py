@@ -8,6 +8,7 @@ ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); DIST=os.path.j
 shutil.rmtree(DIST,ignore_errors=True)
 shutil.copytree(ROOT,DIST,ignore=shutil.ignore_patterns('.bak','.git','.gitignore','.wrangler','dist','scripts','.DS_Store','node_modules','README.md'))
 os.chdir(DIST)
+open('.assetsignore','w').write('.wrangler\nwrangler.jsonc\n.assetsignore\n')
 open('wrangler.jsonc','w').write('{ "name": "true-wellnes-website", "compatibility_date": "2026-09-15", "observability": { "enabled": true }, "assets": { "directory": "." } }\n')
 def safe(n): return n.replace('?','-q-').replace('&','-and-').replace('=','-')
 renamed={}
