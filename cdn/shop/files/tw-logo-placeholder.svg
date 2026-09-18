@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 92" role="img" aria-label="True Wellness">
+  <g fill="none" stroke="#28356B" stroke-width="2.5">
+    <path d="M46 16 L66 38 L66 66 L46 84 L26 66 L26 38 Z"/>
+    <path d="M46 28 L58 41 L58 61 L46 72 L34 61 L34 41 Z"/>
+  </g>
+  <text x="92" y="52" font-family="Georgia, 'Times New Roman', serif" font-size="40" letter-spacing="3" fill="#28356B">TRUE</text>
+  <text x="94" y="76" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="9" fill="#28356B">WELLNESS</text>
+</svg>
